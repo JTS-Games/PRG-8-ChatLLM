@@ -1,0 +1,51 @@
+* {
+    font-family: monospace, cursive;
+    font-size: 1.5rem;
+    color: white;
+}
+
+button, input{
+    background-color: black;
+}
+
+body{
+    padding-top: 10vh;
+    background-color: black;
+    padding-bottom: 30vh;
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/hal-9000.png");*/
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+
+}
+
+p, h1, form {
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+}
+
+h1 {
+    rotate: -5deg;
+    font-family: Impact;
+    padding-bottom: 4vh;
+    font-size: 4rem;
+}
+
+button {
+    color: lawngreen;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+*:disabled {
+    color: red;
+}
+
+*:disabled:hover {
+    cursor: default;
+}
